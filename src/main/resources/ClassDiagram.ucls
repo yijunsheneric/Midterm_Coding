@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.10" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.cisc181.core.Course" project="Midterm Coding Project" 
+    file="/Midterm Coding Project/src/main/java/com/cisc181/core/Course.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="336" width="224" x="116" y="73"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.cisc181.core.Employee" project="Midterm Coding Project" 
+    file="/Midterm Coding Project/src/main/java/com/cisc181/core/Employee.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="296" width="275" x="533" y="62"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.cisc181.core.Enrollment" project="Midterm Coding Project" 
+    file="/Midterm Coding Project/src/main/java/com/cisc181/core/Enrollment.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="473" y="638"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.cisc181.core.Faculty" project="Midterm Coding Project" 
+    file="/Midterm Coding Project/src/main/java/com/cisc181/core/Faculty.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="954" y="533"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.cisc181.core.Person" project="Midterm Coding Project" 
+    file="/Midterm Coding Project/src/main/java/com/cisc181/core/Person.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="416" width="390" x="-57" y="460"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.cisc181.core.PersonException" project="Midterm Coding Project" 
+    file="/Midterm Coding Project/src/main/java/com/cisc181/core/PersonException.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="96" width="174" x="926" y="95"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="7">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <generalization id="8">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
